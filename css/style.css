@@ -3,14 +3,156 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body{
-	font-family: 'Roboto', sans-serif;
+
+ul {
+	list-style: none;
 }
-.container{
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFBAA1;
+}
+
+.container {
 	max-width: 1010px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
-.d-flex{
+
+.d-flex {
 	display: flex;
+}
+
+.btn {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	background: #110ACD;
+	color: #FFFFFF;
+	padding: 11px 24px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.header-top {
+	margin: 75px 0;
+	height: 57px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-btn {
+	margin: 0 0 0 26px;
+}
+
+.nav-list {
+	grid-gap: 40px;
+}
+
+.header-text {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 57px;
+	text-align: right;
+	color: #000000;
+	margin: 70px 0 9px 0;
+}
+
+.about {
+	background-color: #FFFFFF;
+}
+
+.about-content {
+	margin: 126px 0 0 80px;
+}
+
+.about-heading {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 57px;
+	color: #000000;
+	width: 413px;
+}
+
+.about-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 178%;
+	width: 406px;
+	margin: 46px 0 80px 0;
+}
+
+.slider-heading {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 57px;
+	text-align: center;
+	color: #000000;
+	padding: 110px 0 0 0;
+}
+
+.slider {
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.slider-wrap {
+	width: 433px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.slider-item {
+	padding: 36px 0 135px;
+}
+
+.slider-item-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 178%;
+	text-align: center;
+	color: #000000;
+}
+.slick-prev:before{
+	content: url(../img/previous.png);
+}
+.slick-next:before{
+	content: url(../img/next.png);
+}
+.slick-prev {
+	left: -75px;
+	top: 100px;
+}
+.slick-next {
+	left: 475px;
+	top: 100px;
+}
+.people-img-row {
+	padding: 55px 0;
+	background-color: #FFFFFF;
+}
+
+.people-wrap {
+	justify-content: space-between;
+}
+
+footer {
+	height: 180px;
 }

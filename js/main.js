@@ -1,10 +1,11 @@
 $(function(){
-	$('.slider-item').slick({
+	$('.slider-wrap').slick({
 		infinity: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
 		dots: false,
+		
 		responsive: [
 			{
 			  breakpoint: 1024,
