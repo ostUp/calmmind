@@ -56,6 +56,10 @@ body {
 	grid-gap: 40px;
 }
 
+.header-main {
+	margin-bottom: 100px;
+}
+
 .header-text {
 	font-family: 'Nunito';
 	font-style: normal;
@@ -130,20 +134,25 @@ body {
 	text-align: center;
 	color: #000000;
 }
-.slick-prev:before{
+
+.slick-prev:before {
 	content: url(../img/previous.png);
 }
-.slick-next:before{
+
+.slick-next:before {
 	content: url(../img/next.png);
 }
+
 .slick-prev {
 	left: -75px;
 	top: 100px;
 }
+
 .slick-next {
 	left: 475px;
 	top: 100px;
 }
+
 .people-img-row {
 	padding: 55px 0;
 	background-color: #FFFFFF;
